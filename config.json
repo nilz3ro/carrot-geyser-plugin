@@ -1,0 +1,10 @@
+{
+    "libpath": "target/debug/libgeyser.so",
+    "pulsar_url": "pulsar+ssl://pc-bb53a12c.gcp-shared-usce1.g.snio.cloud:6651",
+    "pulsar_topic": "persistent://carrot/crt/token-account-update",
+    "streamnative_oauth2": {
+        "issuer_url": "https://auth.streamnative.cloud/",
+        "credentials_url": "file:///home/nilz3ro/Projects/carrot/o-2brec-carrot-test-service-account.json",
+        "audience": "urn:sn:pulsar:o-2brec:carrot-poc"
+    }
+}
