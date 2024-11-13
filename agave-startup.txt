@@ -1,0 +1,25 @@
+agave-validator \
+    --identity /root/carrot-rpc/carrot-rpc.json \
+    --known-validator AdULBQShMGkMTL42QKMB9pHqJZVAEXdz5s59wokQT8MM \
+    --known-validator EJtPez2aXXE6JaTacz74XkVvAWkfWhdG7XHFFbdAoY81 \
+    --known-validator Gu2uxZ2vhMr58Nar1tqUxPoHe1rJVBmJ84cfBN7hXkCE \
+    --known-validator 5gtF8SEFbgJp9pEh5vNXood7WL4yyV8xnymULKoz8rEE \
+    --known-validator pGUjdSpmoYcNwY4SVfnMtQxDc6W4eyUjyu3FhArgucg \
+    --known-validator 7pAnJvkwqFPmruKJESSStnuUCMeYiseEQ6QKkorZnRjQ \
+    --no-voting \
+    --ledger /mnt/volume_nyc3_01 \
+    --accounts /mnt/volume_nyc3_02 \
+    --log /root/carrot-rpc/solana-rpc.log \
+    --rpc-port 8899 \
+    --rpc-bind-address 0.0.0.0 \
+    --private-rpc \
+    --dynamic-port-range 8000-8020 \
+    --expected-genesis-hash 5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d \
+    --wal-recovery-mode skip_any_corrupted_record \
+    --limit-ledger-size 50000000 \
+    --geyser-plugin-config /root/carrot-geyser-plugin/config.json \
+    --entrypoint entrypoint.mainnet-beta.solana.com:8001 \
+    --entrypoint entrypoint2.mainnet-beta.solana.com:8001 \
+    --entrypoint entrypoint3.mainnet-beta.solana.com:8001 \
+    --entrypoint entrypoint4.mainnet-beta.solana.com:8001 \
+    --entrypoint entrypoint5.mainnet-beta.solana.com:8001 \
